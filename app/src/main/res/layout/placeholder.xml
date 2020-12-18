@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5sp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1.4">
+        <TextView
+            android:id="@+id/trackId_placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="10"
+            android:background="@android:color/transparent"/>
+        <ImageView
+            android:id="@+id/trackThumb"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:gravity="center"
+            android:background="@color/placeholder_bg"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:id="@+id/trackName_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_title_text_height"
+            style="@style/placeholder_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/artistName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            style="@style/placeholder_text"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

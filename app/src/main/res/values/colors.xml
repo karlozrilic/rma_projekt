@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F9D58</color>
+    <color name="colorPrimaryDark">#0F9D58</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#000000</color>
+
+    <color name="primary">#dddddd</color>
+    <color name="secondary">#d3d3d3</color>
+
+    // Shimmer colors
+    <color name="placeholder_bg">#dddddd</color>
+</resources>
