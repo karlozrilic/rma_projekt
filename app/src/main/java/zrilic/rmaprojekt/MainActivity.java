@@ -26,7 +26,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements ItemClickInterface{
+public class MainActivity extends AppCompatActivity implements ItemClickInterface {
 
     private RecyclerView recyclerView;
     private ListAdapter listAdapter;
